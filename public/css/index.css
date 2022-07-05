@@ -1,0 +1,84 @@
+.index{
+    
+
+}
+.index h3{
+    font-size: 24px;
+}
+.index h4{
+    font-size: 16px;
+}
+
+/* herader del body */
+.index__header{
+    font-family: 'Roboto';
+    font-size: 12px;
+    background-color: var(--color_Amarillo);
+
+}
+.index__header p{
+    text-align: center;
+}
+.index__header__div--logo img{
+    width: 40%;
+    padding: 15px;
+
+}
+.index__header__div--boton{
+    margin-left: 10px;
+
+}
+
+.index__header__nav ul{
+padding: 0px;
+
+}
+.index__header__div--burger-menu{
+text-align: center ;
+font-size: 20px;
+
+}
+.index__header__div--burger-menu button{
+    background-color: var(--color_Celeste);
+    color: white;
+    border: solid 1px black;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+/* main */
+.index__main{
+
+}
+.index__main--precio{
+    font-size: 18px;
+}
+/* footer */
+.index_footer{
+    text-align: center;
+    font-family: 'Roboto';
+    margin: 10px;
+
+}
+.index_footer i{
+    color: var(--color_Celeste);
+    margin-bottom: 10px;
+   font-size: 2em;
+
+
+}
+
+ 
+ 
+.index_footer_section-pago{
+
+}
+.index_footer_section-envio{
+
+}
+.index_footer_section-seguridad{
+
+}
+.index_footer_div{
+    text-align: left;
+}

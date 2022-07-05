@@ -31,7 +31,7 @@
 
 .index__header__nav ul{
 padding: 0px;
-
+/* text-decoration:none; */
 }
 .index__header__div--burger-menu{
 text-align: center ;

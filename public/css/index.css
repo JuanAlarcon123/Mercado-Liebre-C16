@@ -38,6 +38,7 @@
 .index__header__nav ul{
 padding: 0px;
 /* text-decoration:none; */
+display: none;
 }
 .index__header__div--burger-menu{
 text-align: center ;
@@ -60,8 +61,9 @@ font-size: 20px;
  
 }
 .main__section{
-    width: 300px;
-    margin: auto;
+    
+    /* width: 300px; */
+    /* margin: auto; */ /* para version mobile */
 }
 
 .index__main__articulo{
@@ -79,6 +81,9 @@ font-size: 20px;
 }
 .index__main__articulo--datos i{
     color: var(--color_Verde);
+}
+.index__main__articulo--datos h4{
+    display: none;
 }
 .index__main__articulo--precio{
     font-size: 18px;
@@ -118,4 +123,26 @@ font-size: 20px;
 
 
 .index_footer_section-pago p{
+}
+
+/* tablets */
+@media (min-width:768px ){
+.index__header__nav ul{
+display: block;
+    }
+.index__header__div--burger-menu{
+    display: none;
+}
+.index__main__articulo{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+.index__main__articulo--datos h4{
+    display: inline;
+    line-height: 30px;
+}
+}
+
+/* desktop  */
+@media (min-width:1024px ){
+
 }

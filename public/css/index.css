@@ -1,12 +1,18 @@
+*{
+    box-sizing: border-box;;
+}
 .index{background-color: var(--color_Gris_claro);
     
 
 }
 .index h3{
     font-size: 24px;
+    text-align: left;
+    color: var(--color_Gris_oscuro);
 }
 .index h4{
     font-size: 16px;
+    color: var(--color_Gris_oscuro);
 }
 
 /* herader del body */
@@ -53,17 +59,32 @@ font-size: 20px;
     margin: auto;
  
 }
+.main__section{
+    width: 300px;
+    margin: auto;
+}
 
 .index__main__articulo{
     margin:10px;
+    line-height:10px;
+    border: 1px solid var(--color_Gris_claro);
+}
+.index__main__articulo--img img{
+    width: 100%;
 }
 .index__main__articulo--datos{
     border: solid var(--color_Gris_claro) 1px;
     padding: 15px;
     background-color: white;
 }
+.index__main__articulo--datos i{
+    color: var(--color_Verde);
+}
 .index__main__articulo--precio{
     font-size: 18px;
+}
+.index__main__articulo--descuento{
+    color: var(--color_Verde);
 }
 /* footer */
 .index_footer{
@@ -97,5 +118,4 @@ font-size: 20px;
 
 
 .index_footer_section-pago p{
-    font-size: 30px;
 }

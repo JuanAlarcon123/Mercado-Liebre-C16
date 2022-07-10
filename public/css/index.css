@@ -1,4 +1,4 @@
-.index{
+.index{background-color: var(--color_Gris_claro);
     
 
 }
@@ -48,9 +48,21 @@ font-size: 20px;
 }
 /* main */
 .index__main{
-
+    
+    width: 90%;
+    margin: auto;
+ 
 }
-.index__main--precio{
+
+.index__main__articulo{
+    margin:10px;
+}
+.index__main__articulo--datos{
+    border: solid var(--color_Gris_claro) 1px;
+    padding: 15px;
+    background-color: white;
+}
+.index__main__articulo--precio{
     font-size: 18px;
 }
 /* footer */
@@ -81,4 +93,9 @@ font-size: 20px;
 }
 .index_footer_div{
     text-align: left;
+}
+
+
+.index_footer_section-pago p{
+    font-size: 30px;
 }

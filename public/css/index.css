@@ -11,6 +11,7 @@
     font-size: 24px;
     text-align: left;
     color: var(--color_Gris_oscuro);
+    margin: 8px;/*  se lo di al terminar el posicionamiento por las dudas */
 }
 .index h4{
     font-size: 16px;
@@ -26,6 +27,8 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+    padding-bottom: 20px;
+
 
 }
 .index__header__div--logo img{
@@ -50,14 +53,17 @@
 .index__header__div--boton{
     width: 52%;
     text-align: center;
+    gap: 1px;
 }
+
 .index__header__div--boton input{
+    width: 86%;
     height: 30px;
     border-radius: 5px;
 }
 .index__header__div--boton button{
     height: 25px;
-    width: 25px;
+    width: 12%;
     border-radius: 5px;
 }
 .index__header__nav{
@@ -84,6 +90,11 @@ font-size: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
 }
+
+.baner{
+    width: 100%;
+}
+.baner img{width: 100%;}
 /* main */
 .index__main{
 
@@ -155,9 +166,10 @@ font-size: 20px;
 
 
 }
-
- 
- 
+.index_footer_div p{
+    margin: 5px;
+    padding: 15px 0px;
+}
 .index_footer_section-pago{
 
 }
@@ -187,10 +199,19 @@ font-size: 20px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    width: 60%;
+    width: 65%;
+}
+.index__header__div--boton input{
+    height: 30px;
+    border-radius: 5px;
+}
+.index__header__div--boton button{
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
 }
 .index__header__div-p{
-    width: 40%;
+    width: 35%;
     justify-content: center;
     align-items: center;
 }
@@ -239,11 +260,18 @@ display: block;
   
 }
 .index__header__nav ul li{
+    text-decoration: none;
+ 
 
 }
-
-
-
+.index__header__nav ul li a{
+    color:rgba(0,0,0,0.8);
+}
+/* footer */
+.index_footer_div p{
+    margin: 20px;
+    padding: 15px 10px;
+}
 
 }
 

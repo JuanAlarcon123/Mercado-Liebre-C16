@@ -1,0 +1,75 @@
+
+.register{
+    background-color: var(--color_Gris_claro);
+}
+
+.register h5{
+    font-size: 16px;
+    margin: 3px;
+
+}
+.create-form{
+    padding: 20px;
+}
+.form__div{
+    margin-bottom: 10px;
+
+}
+.form__div label{
+  
+    }
+.form__div input{
+    width: 100%;
+    height: 30px;
+    margin: 5px 0px;
+    outline: none;
+    
+}
+.form__div-checkbox{}
+.form__div-checkbox label{
+    display: block;
+    padding: 5px;
+    margin: 10px 0px;
+}
+.form__div-radio{}
+.form__div-radio label{
+    display: block;
+    padding: 5px;
+    margin: 10px 0px;
+ 
+}
+.form__div-button{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap:20px;
+}
+.form__div-button button{
+    padding: 5px;
+    background-color: rgba(128, 128, 128, 0.7);
+    border: solid 1px rgba(128, 128, 128, 0.7);;
+    border-radius: 5px;
+} 
+.form__div-buscador{
+    margin: 5px 0px;
+    gap:10px
+}
+.form__div-buscado input{
+  
+}
+
+@media (min-width:768px){
+    .create-form{
+        width: 610px;
+        margin: 20px auto;
+        border: solid 1px rgba(128, 128, 128, 0.7);
+        border-radius: 15px;
+        padding:25px
+    }
+
+
+}
+
+
+
+

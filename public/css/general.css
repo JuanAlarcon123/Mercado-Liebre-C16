@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
 a{
     text-decoration: none;
@@ -10,3 +12,6 @@ p{
 h4{
     font-family: 'Roboto';
 }/*  no sabia si enlas descripciones de productos habia que poner roboto o no */
+h5{
+    font-family: 'Roboto';
+}

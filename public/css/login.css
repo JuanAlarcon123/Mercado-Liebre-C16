@@ -1,6 +1,9 @@
 .login button{
     width: 100%;
-    background-color: var(--color_Celeste);
+    background-color: rgb(187, 177, 177);
+}
+.login button:hover{
+    background-color: #0022AA;
 }
 
 

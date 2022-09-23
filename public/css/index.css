@@ -136,7 +136,14 @@ font-size: 20px;
     top: -15px;
 }
 .index__main__articulo--datos h4{
-    display: none;
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+}
+.index__main__articulo:hover h4{
+    height: 40px;
+    padding: 10px 0px;
+    color: var(--color_Gris_oscuro);
 }
 .index__main__articulo--precio{
     font-size: 18px;
@@ -237,6 +244,7 @@ display: block;
 }
 .index__main__articulo{
     width: 45%;
+    height: 375px;
 }
 .index__main__articulo--datos h4{
     display: inline;

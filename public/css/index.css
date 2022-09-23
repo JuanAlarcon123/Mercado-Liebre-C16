@@ -108,6 +108,8 @@ font-size: 20px;
     margin:10px;
     line-height:10px;
     border: 1px solid var(--color_Gris_claro);
+    transition: all 1s;
+
 }
 .index__main__articulo--img img{
     width: 100%;
@@ -134,6 +136,10 @@ font-size: 20px;
     position: absolute;
     right: 20px;
     top: -15px;
+    transition: all 1s;
+}
+.index__main__articulo--datos i:hover{
+transform: rotate(360deg);
 }
 .index__main__articulo--datos h4{
     width: 100%;
@@ -144,6 +150,7 @@ font-size: 20px;
     height: 40px;
     padding: 10px 0px;
     color: var(--color_Gris_oscuro);
+    transition: all 1s;
 }
 .index__main__articulo--precio{
     font-size: 18px;

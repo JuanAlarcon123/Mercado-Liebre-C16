@@ -246,6 +246,9 @@ display: block;
     width: 45%;
     height: 375px;
 }
+.index__main__articulo:hover{
+    box-shadow: 5px 5px 10px rgb(100, 100, 100);
+}
 .index__main__articulo--datos h4{
     display: inline;
     line-height: 30px;
@@ -303,6 +306,7 @@ width: 30%;
 }
 .index__main__articulo{
     width: 22%;
+    height: 355px;
 
 }
 .index__main__articulo--datos{
